@@ -5,40 +5,38 @@
     list-style-type: none;
     box-sizing: border-box;
 }
-body{
+body {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+    background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
     font-family: sans-serif;
     color: white;
 
-    .location{
+    .location_C {
         height: 30vh;
-        width: 50%;
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
-    .temperature{
+    .temperature {
         height: 30vh;
-        width: 50%;
         display: flex;
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
 
-        .degree_section{
+        .degree_section {
             display: flex;
             align-items: center;
             cursor: pointer;
 
-            h2{
+            h2 {
                 font-size: 40px;
             }
-            span{
+            span {
                 margin: 10px;
                 font-size: 30px;
             }
